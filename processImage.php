@@ -1,5 +1,4 @@
 <?php
-//error_reporting(6135);
 
 if ($_SERVER["REQUEST_METHOD"]== "POST")
 {
@@ -8,8 +7,6 @@ if ($_SERVER["REQUEST_METHOD"]== "POST")
 		$imagem =$_POST["imagem"];
     }
 
-
-	
 	
 	if ($imagem != null && $imagem !="undefined")
 	{
